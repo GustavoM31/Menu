@@ -1,0 +1,133 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: #3e52a3; }
+
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+
+    h1 {
+        font-family: 'Outfit';
+        font-size: 45px;
+        
+    }
+
+    ul, ol {      
+        padding: 0;
+        
+        
+        
+    }
+    ol, ul, li::marker {
+        color: hsl(14, 45%, 36%); /* Substitua #ff0000 pelo código de cor desejado para o primeiro número */
+        padding-left: 20px;
+    
+    }
+
+    
+
+    h2 {
+        font-family: 'Young Serif';
+        font-size: 16px;
+        color: hsl(14, 45%, 36%)
+    }
+
+    p{
+        font-size: 16px;
+        font-family: 'Outfit';
+        color: hsl(24, 5%, 18%);
+    }
+
+    .container {
+        width: 80%; /* Defina a largura desejada para a div */
+        margin: 20px auto; /* Centralize a div na página e adicione margens para espaçamento */
+        border: 1px solid #ccc; /* Adicione uma borda opcional para melhor visualização */
+        border-radius: 15px;
+    }
+
+    .div2 {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        text-align: right; /* Adiciona o alinhamento à esquerda com alta prioridade */
+    }
+
+    .diva {
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        text-align: right; /* Adiciona o alinhamento à esquerda com alta prioridade */
+    }
+
+    .divc {
+        width: 74%;
+        display: flex;
+        justify-content: space-between;
+        text-align: right; /* Adiciona o alinhamento à esquerda com alta prioridade */
+    }
+
+    .div3 {
+        width: 100%;
+        border-bottom: 1px solid #ccc;;
+    }
+
+
+    .p2 {
+        margin: 10px;
+    }
+    
+    
+    /* Restante do seu código CSS... */      
+    
+    
+    img {
+        display: block; /* Garante que a imagem seja tratada como um bloco */
+        width: 100%; /* Faz a imagem ocupar 100% da largura da div */
+        height: auto; /* Mantém a proporção original da imagem ajustando a altura automaticamente */
+        border-radius: 15px;
+    }
+
+
+    /* Estilos para Desktop */
+.teste {
+    width: 50%;
+    height: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+/* Estilos para Celulares */
+@media only screen and (max-width: 767px) {
+    .teste {
+        width: 100%; /* 100% de largura para telas de celular */
+        height: auto; /* Altura automática com base no conteúdo */
+        margin: 10px auto; /* Ajuste as margens conforme necessário para telas menores */
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        border-radius: 15px;
+    }
+}
+
+.teste2 {
+    width: 80%;
+    height: 90%;
+    margin: 0px auto;
+    border: 0px solid;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.preparo{
+    width: 95%;
+    height: 90%;
+    margin: 1px auto;
+    border-left: 20px solid hsl(330, 100%, 98%);
+    border-right: 20px solid hsl(330, 100%, 98%);
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+li{
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
